@@ -1,4 +1,7 @@
+html, body {
 
+	background-color: black;
+}
 
 .spin{
 	position:fixed;
@@ -6,7 +9,7 @@
 	height:50%;
 	top:20%;
 	left:15%;
-	background-color: blue;
+	background-color: white;
 }
 
 p {
