@@ -3,7 +3,7 @@ html, body{
 	height:100%;
 	scroll-behavior: smooth;
 	display: inline-block;
-	background-color: none;
+	background-color: white;
 
 }
 
@@ -15,14 +15,16 @@ html, body{
 
 width: 25%;
 height: 300px;
+left: 20%;
 background-color: red;
 border-radius: 50%;
 margin:0 auto;
 float: left;
 margin-top: 0px;
 top: 0;
-	
+position: fixed;
 }
+
 .spin{
 	position:absolute;
 	width:150%;
@@ -31,6 +33,17 @@ top: 0;
   left: 0px;
   top:0px;
   text-align: center;
+  border-radius: 50%;
+}
+.spin2{
+	position:absolute;
+	width:150%;
+	height:150%;
+	background-color: red;
+  right: 0px;
+  bottom:0px;
+  text-align: center;
+  border-radius: 50%;
 }
 
 .menu2 {
@@ -67,6 +80,14 @@ a {
   right: 20px;
 }
 
-
+p {
+	font-size: 100px;
+	text-decoration: none;
+	color: black;
+  font-family: 'Hind Guntur', sans-serif;
+  text-align:center;
+  right: 20px;
+  color: red;
+}
 
 

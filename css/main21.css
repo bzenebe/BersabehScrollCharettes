@@ -1,40 +1,37 @@
 html, body{
 	width: 100%;
 	height:100%;
-	background-color: white;
 	scroll-behavior: smooth;
+	display: inline-block;
+	background-color: white;
+
 }
 
-.skrollr-container{
-	top:20%;
-	width: 100%;
-	height:100%;
-	overflow:hidden;
-}
+
+
+
 
 .spin{
 	position:fixed;
-	width:90%;
-	height:30%;
-	left:0%;
-	top:40%;
-	background-color: black;
+	width:100%;
+	height:100%;
+	background-color: blue;
+  left: 0px;
+  top:0px;
   text-align: center;
-
+  border-radius: 50%;
 }
-
 .spin2{
 	position:fixed;
 	width:100%;
-	height:30%;
-	left:0%;
-	top:40%;
-	background-color: white;
+	height:100%;
+	background-color: yellow;
+  right: 0px;
+  bottom:0px;
+   
   text-align: center;
-
+  border-radius: 50%;
 }
-
-
 
 .menu2 {
  position: fixed;
@@ -70,38 +67,14 @@ a {
   right: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+p {
+	font-size: 100px;
+	text-decoration: none;
+	color: black;
+  font-family: 'Hind Guntur', sans-serif;
+  text-align:center;
+  right: 20px;
+  color: red;
+}
 
 

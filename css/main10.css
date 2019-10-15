@@ -14,70 +14,57 @@ html, body{
 
 .spin{
 	position:fixed;
-	width:30%;
-	height:30%;
+	width:80%;
+	height:40%;
 	top: 40%;
 	left:40%;
-	background-color: black;
+	background-color: blue;
 }
 
-
-p {
-
-	left:70px;
-	color: black;
-	font-size: 300px;
-	position: fixed;
-}
-#welcome {
+.spin2{
+	position:fixed;
+	width:600px;
+	height:600px;
+	top: 20%;
 	left:40%;
-}
-
-#menu {
-	left:-110px;
-	top:0px;
-	height:100%;
-	width:200px;
-	position: fixed;
-	background-color:#99ccff;
-	border-color: black;
-	-webkit-transition: all 1000ms ease;
-	-moz-transition: all 1500ms ease;
-	-ms-transition: all 1500ms ease;
-	-o-transition: all 1500ms ease;
-	transition: all 1500ms ease;   
-	transition:0s 180s;
-	-webkit-transition: all 1000ms ease;
-	
-}
-#menu:hover {
-	-webkit-transition: all 1000ms ease;
-	-moz-transition: all 1500ms ease;
-	-ms-transition: all 1500ms ease;
-	-o-transition: all 1500ms ease;
-	transition: all 1500ms ease;   
-	transition:0s 180s;
-	-webkit-transition: all 1000ms ease;
-	left: 0px;
-	overflow: auto;
+	background-color: yellow;
+	border-radius: 50%;
 
 }
+
+.menu2 {
+ position: fixed;
+ width: 100%;
+ height: 10%;
+ background-color: none;
+ margin-bottom: 0px;
+ display: inline;
+ bottom: 0;
+ right: 30px;
+ text-align:right;
+
+}
+
+.number {
+ position: fixed;
+ width:100%;
+ height: 10%;
+ background-color: none;
+ margin-bottom: 0px;
+ top: 0px;
+ right: 30px;
+ text-align:right;
+}
+
 
 a {
-	font-size: 35px;
+	font-size: 50px;
 	text-decoration: none;
 	color: black;
-	margin-left:50px;
-
+  font-family: 'Hind Guntur', sans-serif;
+  text-align:center;
+  right: 20px;
 }
-
-#menuItems {
-	
-	left:100px;
-	
-}
-
-
 
 
 
